@@ -1,0 +1,41 @@
+.tag {
+    display: inline-block;
+    padding: 6px 12px;
+    font-size: 14px;
+    font-weight: bold;
+    color: white;
+    border-radius: 20px;
+    margin: 5px 0;
+}
+
+.tag-green {
+    background-color: #a4f6b7;
+}
+
+.tag-orange {
+    background-color: #ffe699;
+    color: black;
+}
+
+.tag-red {
+    background-color: #f88b96;
+}
+
+.tag-gray {
+    background-color: #6c757d;
+}
+
+.tile {
+    background-color: #f8f9fa;
+    border-radius: 12px;
+    padding: 20px;
+    margin: 10px 0;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.1s ease-in-out;
+}
+
+.tile:hover {
+    transform: scale(1.02);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+

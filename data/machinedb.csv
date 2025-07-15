@@ -1,0 +1,4 @@
+machine_id,machine_name,location,last_maintenance,technician
+M001,Compressor A,Plant 1,2025-05-10,Ravi
+M002,Compressor B,Plant 2,2025-04-22,Asha
+...
