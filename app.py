@@ -3,7 +3,7 @@ import pandas as pd
 import plotly.express as px
 from datetime import date, timedelta
 
-st.set_page_config(page_title="JSW Predictive Maintenance", layout="wide")
+st.set_page_config(page_title="JSW-PreDict", layout="wide")
 st.title("JSW Maintenance Dashboard")
 st.markdown("---")
 
