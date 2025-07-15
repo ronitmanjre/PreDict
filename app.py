@@ -19,7 +19,7 @@ def format_hours_to_h_m(decimal_hours):
 
 
 # --- Read Equipment Master File ---
-MASTER_PATH = "/Users/ronitmanjre/Desktop/HelloWorld/Equipment Master As on 21.04.25.xlsx"
+MASTER_PATH = 'Equipment Master As on 21.04.25.xlsx'
 try:
     master_df = pd.read_excel(MASTER_PATH, engine="openpyxl")
     master_df.columns = master_df.columns.str.strip().str.lower()
