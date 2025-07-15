@@ -4,7 +4,7 @@ import plotly.express as px
 from datetime import date, timedelta
 
 st.set_page_config(page_title="JSW-PreDict", layout="wide")
-st.title("JSW Maintenance Dashboard")
+st.title("JSW-PreDict")
 st.markdown("---")
 
 # --- Format Hours as hh:mm ---
